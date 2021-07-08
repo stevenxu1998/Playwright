@@ -74,7 +74,7 @@ var assert = require('assert');
   // assert.equal(page.url(), 'https://app.front.workwolf.com/cart/summary');
 
   // Click //tr[3]/td[5]/button/span[normalize-space(.)='Remove']
-  await page.click('//tr[3]/td[5]/button/span[normalize-space(.)=\'Remove\']');
+  await page.click('text="Remove"');
 
   // Click text="Remove"
   await page.click('text="Remove"');
